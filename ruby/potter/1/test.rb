@@ -9,6 +9,8 @@ class PotterTest < Minitest::Test
   
   def test_price
   	assert_equal(0, @potter.price([]))
+		assert_equal(8, @potter.price([0]))
+
   end
 
   

@@ -2,7 +2,7 @@ class Potter
 
 
  def price(books)
- 	0 
+   books.size == 0 ? 0 : 8
  end
 
 
